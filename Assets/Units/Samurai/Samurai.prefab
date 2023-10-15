@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8419465740646132554
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2846421711353253483}
+  - component: {fileID: -1232884336260420965}
+  - component: {fileID: 2745325050419697072}
+  - component: {fileID: 2134471864637782494}
+  m_Layer: 0
+  m_Name: Samurai
+  m_TagString: Samurai
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2846421711353253483
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8419465740646132554}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-1232884336260420965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8419465740646132554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27b9e9ee7d7a22c47a88c63e42b8f3d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <Defense>k__BackingField:
+    _current: 0.1
+    <Default>k__BackingField: 0.1
+    <Modifiers>k__BackingField: []
+  <BlockChance>k__BackingField:
+    _current: 0.02
+    <Default>k__BackingField: 0.02
+    <Modifiers>k__BackingField: []
+--- !u!114 &2745325050419697072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8419465740646132554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 927755a872e126d47b26d54879a80b31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  armorPrefab: {fileID: 3992064935773689638, guid: 5cd878c593254ad4892db60399694604, type: 3}
+--- !u!114 &2134471864637782494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8419465740646132554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c084ce026a4c3b04895edd8c4b969a10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
